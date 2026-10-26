@@ -1,11 +1,11 @@
 
 import streamlit as st
 import pandas as pd
-from pdf_report import create_pdf_report
+from backend.pdf_report import create_pdf_report
 import os
 import tempfile
-from visualizations import show_visualizations
-from data_scanner import (
+from backend.visualizations import show_visualizations
+from backend.data_scanner import (
     scan_dataset,
     detect_outliers,
     analyze_relationships,

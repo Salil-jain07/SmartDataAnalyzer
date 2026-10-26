@@ -154,16 +154,19 @@ The interactive correlation heatmap is built with Plotly and supports features s
 ## Project Structure
 
 ```text
+
 SmartDataAnalyzer/
-│
-├── app.py
-├── data_scanner.py
-├── visualizations.py
-├── pdf_report.py
-├── requirements.txt
-├── README.md
+├── backend/
+│   ├── __init__.py
+│   ├── data_scanner.py
+│   ├── visualizations.py
+│   └── pdf_report.py
+├── frontend/
+│   └── app.py
 ├── .gitignore
-└── .venv/                 # Local environment; not committed
+├── README.md
+└── requirements.txt
+
 ```
 
 ### File Responsibilities
